@@ -2,6 +2,8 @@ package net.malfoy.malfoymod;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.malfoy.malfoymod.block.ModBlocks;
+import net.malfoy.malfoymod.item.ModItemGroups;
 import net.malfoy.malfoymod.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -12,7 +14,8 @@ public class MalfoyMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ModItemGroups.registerItemGroups();
 		ModItems.registerModItems();
-
+		ModBlocks.registerModBlocks();
 	}
 }
