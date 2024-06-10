@@ -11,6 +11,5 @@ public class MalfoyMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		LOGGER.info("Hello Fabric world!");
 	}
 }
