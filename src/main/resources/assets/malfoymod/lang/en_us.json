@@ -2,6 +2,7 @@
   "item.malfoymod.ruby": "Ruby",
   "item.malfoymod.raw_ruby": "Raw Ruby",
   "block.malfoymod.ruby_block": "Block Of Ruby",
+  "block.malfoymod.raw_ruby_block": "Block Of Raw Ruby",
 
   "itemgroup.ruby": "Ruby Group By Malfoy "
 }

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft_crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "malfoymod:ruby_block"
+    }
+  ],
+  "result": {
+    "item": "malfoymod:ruby",
+    "count": 9
+  }
+}
