@@ -1,6 +1,6 @@
 {
-  "type": "minecraft_crafting_shapeless",
-  "category": "building",
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
   "ingredients": [
     {
       "item": "malfoymod:ruby_block"

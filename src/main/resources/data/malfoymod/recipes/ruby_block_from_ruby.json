@@ -1,6 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "misc",
+  "category": "building",
   "pattern": [
     "###",
     "###",
@@ -12,6 +12,6 @@
     }
   },
   "result": {
-    "item": "malfoy:ruby_block"
+    "item": "malfoymod:ruby_block"
   }
 }
