@@ -4,6 +4,17 @@
   "block.malfoymod.ruby_block": "Block Of Ruby",
   "block.malfoymod.raw_ruby_block": "Block Of Raw Ruby",
   "block.malfoymod.uranium_block": "Block Of Uranium",
+  "block.malfoymod.ruby_ore": "Ruby Ore",
+  "block.malfoymod.deepslate_ruby_ore": "Deepslate Ruby Ore",
+  "block.malfoymod.nether_ruby_ore": "Nether Ruby Ore",
+  "block.malfoymod.end_stone_ruby_ore": "End Ruby Ore",
+  "item.malfoymod.metal_detector": "Metal Detector",
+  "block.malfoymod.sound_block": "Sound Block",
+  "item.malfoymod.ruby_burger": "Ruby Burger",
+  "item.malfoymod.uranium_ingot": "Uranium Ingot",
+  "tooltip.malfoymod.metal_detector.tooltip": "Right click to find valuables underground!",
+
+
 
   "itemgroup.ruby": "Ruby Group By Malfoy "
 }

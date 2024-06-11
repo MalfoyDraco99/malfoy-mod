@@ -2,6 +2,7 @@ package net.malfoy.malfoymod;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.fabricmc.fabric.api.registry.FuelRegistry;
 import net.malfoy.malfoymod.block.ModBlocks;
 import net.malfoy.malfoymod.item.ModItemGroups;
 import net.malfoy.malfoymod.item.ModItems;
@@ -17,5 +18,6 @@ public class MalfoyMod implements ModInitializer {
 		ModItemGroups.registerItemGroups();
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
+		FuelRegistry.INSTANCE.add(ModItems.URANIUM_INGOT,22000);
 	}
 }
