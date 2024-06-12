@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "malfoymod:raw_ruby_block",
+    "malfoymod:ruby_block",
+    "malfoymod:ruby_ore",
+    "malfoymod:nether_ruby_ore",
+    "malfoymod:end_stone_ruby_ore",
+    "malfoymod:deepslate_ruby_ore",
+    "malfoymod:asbestos_ore",
+    "malfoymod:uranium_block"
+  ]
+}

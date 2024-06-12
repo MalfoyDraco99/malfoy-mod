@@ -27,6 +27,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.NETHER_RUBY_ORE);
                         entries.add(ModBlocks.END_STONE_RUBY_ORE);
                         entries.add(ModBlocks.SOUND_BLOCK);
+                        entries.add(ModBlocks.ASBESTOS_ORE);
 
                     }).build());
     public static void registerItemGroups() {

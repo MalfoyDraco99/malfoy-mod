@@ -22,6 +22,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
     protected void configure(RegistryWrapper.WrapperLookup arg) {
         getOrCreateTagBuilder(ModTags.Blocks.METAL_DETECTOR_DECTECTABLE_BLOCKS)
                 .add(ModBlocks.RUBY_ORE)
+                .add(ModBlocks.ASBESTOS_ORE)
                 .forceAddTag(BlockTags.GOLD_ORES)
                 .forceAddTag(BlockTags.EMERALD_ORES)
                 .forceAddTag(BlockTags.REDSTONE_ORES)
@@ -36,11 +37,13 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.NETHER_RUBY_ORE)
                 .add(ModBlocks.END_STONE_RUBY_ORE)
                 .add(ModBlocks.DEEPSLATE_RUBY_ORE)
+                .add(ModBlocks.ASBESTOS_ORE)
                 .add(ModBlocks.URANIUM_BLOCK);
         getOrCreateTagBuilder(BlockTags.AXE_MINEABLE)
                 .add(ModBlocks.SOUND_BLOCK);
 
-        getOrCreateTagBuilder(BlockTags.NEEDS_STONE_TOOL);
+        getOrCreateTagBuilder(BlockTags.NEEDS_STONE_TOOL)
+                .add(ModBlocks.ASBESTOS_ORE);
 
         getOrCreateTagBuilder(BlockTags.NEEDS_IRON_TOOL)
                 .add(ModBlocks.RUBY_ORE)

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "malfoymod:uranium_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "malfoymod:uranium_ingot"
+  }
+}

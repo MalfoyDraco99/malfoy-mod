@@ -35,6 +35,7 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.DEEPSLATE_RUBY_ORE, oreDrops(ModBlocks.DEEPSLATE_RUBY_ORE, ModItems.RAW_RUBY));
         addDrop(ModBlocks.NETHER_RUBY_ORE, oreDrops(ModBlocks.NETHER_RUBY_ORE, ModItems.RAW_RUBY));
         addDrop(ModBlocks.END_STONE_RUBY_ORE, copperLikeOreDrops(ModBlocks.END_STONE_RUBY_ORE, ModItems.RAW_RUBY));
+        addDrop(ModBlocks.ASBESTOS_ORE, copperLikeOreDrops(ModBlocks.ASBESTOS_ORE, ModItems.RAW_RUBY));
 
     }
     public LootTable.Builder copperLikeOreDrops(Block drop, Item item) {
@@ -43,7 +44,7 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
                         ItemEntry.builder(item)
                                 .apply(SetCountLootFunction
                                         .builder(UniformLootNumberProvider
-                                                .create(1.0f, 3.0f))))
+                                                .create(1.0f, 4.0f))))
                         .apply(ApplyBonusLootFunction.oreDrops(Enchantments.FORTUNE))));
     }
 }

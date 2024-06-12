@@ -1,0 +1,10 @@
+// 1.20.1	2024-06-11T21:31:03.8158909	Malfoy Mod/Block Loot Tables
+f5a00f907d81618365dd8d4b9052973fe2c69ee0 data\malfoymod\loot_tables\blocks\sound_block.json
+2ede89d6263cade202c3de7e5d5525587bcb303d data\malfoymod\loot_tables\blocks\uranium_block.json
+08676d16dcdda3f4ee879ba54c34c7cffd16c71f data\malfoymod\loot_tables\blocks\deepslate_ruby_ore.json
+a2b094a0ac960761438a4e061b8e5707c6393955 data\malfoymod\loot_tables\blocks\ruby_block.json
+92e6146becc9304d2c8f2f5f67e51499da914899 data\malfoymod\loot_tables\blocks\nether_ruby_ore.json
+b8b736458b058e546d2d2aeb0c92563d11e54d2a data\malfoymod\loot_tables\blocks\raw_ruby_block.json
+fc85247fdec32223b11f4b5e6ec0cb4129cf5cf1 data\malfoymod\loot_tables\blocks\ruby_ore.json
+f4be780b331f54ba5791147684cc7ef9d82f9ec6 data\malfoymod\loot_tables\blocks\asbestos_ore.json
+f6d3bd54d3c1d7f17128e9e1dc99d32d7eab4a45 data\malfoymod\loot_tables\blocks\end_stone_ruby_ore.json

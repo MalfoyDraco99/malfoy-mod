@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "malfoymod:ruby_ore",
+    "malfoymod:uranium_block",
+    "malfoymod:nether_ruby_ore",
+    "malfoymod:deepslate_ruby_ore"
+  ]
+}

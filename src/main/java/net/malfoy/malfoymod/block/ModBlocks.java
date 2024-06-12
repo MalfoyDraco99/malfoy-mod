@@ -33,6 +33,8 @@ public class ModBlocks {
             new ExperienceDroppingBlock(FabricBlockSettings.copyOf(Blocks.NETHER_QUARTZ_ORE).strength(3f), UniformIntProvider.create(4,8)));
     public static final Block END_STONE_RUBY_ORE = registerBlock("end_stone_ruby_ore",
             new ExperienceDroppingBlock(FabricBlockSettings.copyOf(Blocks.STONE).strength(4f), UniformIntProvider.create(7,10)));
+    public static final Block ASBESTOS_ORE = registerBlock("asbestos_ore",
+            new ExperienceDroppingBlock(FabricBlockSettings.copyOf(Blocks.COAL_ORE).strength(3.0f), UniformIntProvider.create(1,5)));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);

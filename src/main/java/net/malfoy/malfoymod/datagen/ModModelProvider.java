@@ -23,6 +23,7 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.END_STONE_RUBY_ORE);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.URANIUM_BLOCK);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.SOUND_BLOCK);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.ASBESTOS_ORE);
 
     }
 
