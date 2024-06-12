@@ -8,6 +8,7 @@ import net.minecraft.data.server.recipe.RecipeJsonProvider;
 import net.minecraft.data.server.recipe.ShapedRecipeJsonBuilder;
 import net.minecraft.item.ItemConvertible;
 import net.minecraft.item.Items;
+import net.minecraft.recipe.Ingredient;
 import net.minecraft.recipe.book.RecipeCategory;
 import net.minecraft.util.Identifier;
 
@@ -68,5 +69,31 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input('A',ModItems.ASBESTOS)
                 .criterion(hasItem(ModItems.ASBESTOS),conditionsFromItem(ModItems.ASBESTOS))
                 .offerTo(exporter,new Identifier(getRecipeName(ModItems.ASBESTOS_BURGER)));
+
+        createDoorRecipe(ModBlocks.RUBY_DOOR, Ingredient.ofItems(ModItems.RUBY)).criterion(hasItem(ModItems.RUBY),conditionsFromItem(ModItems.RUBY))
+                .offerTo(exporter,new Identifier(getRecipeName(ModBlocks.RUBY_DOOR)));
+        createFenceRecipe(ModBlocks.RUBY_FENCE, Ingredient.ofItems(ModItems.RUBY)).criterion(hasItem(ModItems.RUBY),conditionsFromItem(ModItems.RUBY))
+                .offerTo(exporter,new Identifier(getRecipeName(ModBlocks.RUBY_FENCE)));
+        createPressurePlateRecipe(RecipeCategory.REDSTONE,ModBlocks.RUBY_PRESSURE_PLATE, Ingredient.ofItems(ModItems.RUBY)).criterion(hasItem(ModItems.RUBY),conditionsFromItem(ModItems.RUBY))
+                .offerTo(exporter,new Identifier(getRecipeName(ModBlocks.RUBY_PRESSURE_PLATE)));
+        createSlabRecipe(RecipeCategory.MISC, ModBlocks.RUBY_SLAB, Ingredient.ofItems(ModItems.RUBY)).criterion(hasItem(ModItems.RUBY),conditionsFromItem(ModItems.RUBY))
+                .offerTo(exporter,new Identifier(getRecipeName(ModBlocks.RUBY_SLAB)));
+        createTrapdoorRecipe(ModBlocks.RUBY_TRAPDOOR, Ingredient.ofItems(ModItems.RUBY)).criterion(hasItem(ModItems.RUBY),conditionsFromItem(ModItems.RUBY))
+                .offerTo(exporter,new Identifier(getRecipeName(ModBlocks.RUBY_TRAPDOOR)));
+
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC,ModBlocks.RUBY_WALL,6)
+                .pattern("###")
+                .pattern("###")
+                .input('#', ModItems.RUBY)
+                .criterion(hasItem(ModItems.RUBY),conditionsFromItem(ModItems.RUBY))
+                .offerTo(exporter,new Identifier(getRecipeName(ModBlocks.RUBY_WALL)));
+
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.REDSTONE,ModBlocks.RUBY_BUTTON,1)
+                .pattern("#")
+                .input('#',ModItems.RUBY)
+                .criterion(hasItem(ModItems.RUBY),conditionsFromItem(ModItems.RUBY))
+                .offerTo(exporter,new Identifier(getRecipeName(ModBlocks.RUBY_BUTTON)));
     }
 }

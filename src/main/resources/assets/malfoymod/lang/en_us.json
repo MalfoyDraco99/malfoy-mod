@@ -17,6 +17,15 @@
   "block.malfoymod.asbestos_block": "Asbestos Block",
   "item.malfoymod.asbestos_burger": "Asbestos Burger",
   "tooltip.malfoymod.metal_detector.tooltip": "Right click to find valuables underground!",
+  "block.malfoymod.ruby_stairs": "Ruby Stairs",
+  "block.malfoymod.ruby_slab": "Ruby Slab",
+  "block.malfoymod.ruby_button": "Ruby Button",
+  "block.malfoymod.ruby_pressure_plate": "Ruby Pressure Plate",
+  "block.malfoymod.ruby_fence": "Ruby Fence",
+  "block.malfoymod.ruby_fence_gate": "Ruby Fence Gate",
+  "block.malfoymod.ruby_wall": "Ruby Wall",
+  "block.malfoymod.ruby_door": "Ruby Door",
+  "block.malfoymod.ruby_trapdoor": "Ruby Trapdoor",
 
 
 
