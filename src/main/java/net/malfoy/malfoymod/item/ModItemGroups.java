@@ -28,6 +28,9 @@ public class ModItemGroups {
                         entries.add(ModBlocks.END_STONE_RUBY_ORE);
                         entries.add(ModBlocks.SOUND_BLOCK);
                         entries.add(ModBlocks.ASBESTOS_ORE);
+                        entries.add(ModItems.ASBESTOS);
+                        entries.add(ModBlocks.ASBESTOS_BLOCK);
+                        entries.add(ModItems.ASBESTOS_BURGER);
 
                     }).build());
     public static void registerItemGroups() {

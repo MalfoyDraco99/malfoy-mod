@@ -35,6 +35,8 @@ public class ModBlocks {
             new ExperienceDroppingBlock(FabricBlockSettings.copyOf(Blocks.STONE).strength(4f), UniformIntProvider.create(7,10)));
     public static final Block ASBESTOS_ORE = registerBlock("asbestos_ore",
             new ExperienceDroppingBlock(FabricBlockSettings.copyOf(Blocks.COAL_ORE).strength(3.0f), UniformIntProvider.create(1,5)));
+    public static final Block ASBESTOS_BLOCK = registerBlock("asbestos_block",
+            new Block(FabricBlockSettings.copyOf(Blocks.WHITE_WOOL)));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);

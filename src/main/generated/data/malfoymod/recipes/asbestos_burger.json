@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:bread"
+    },
+    "A": {
+      "item": "malfoymod:asbestos"
+    },
+    "M": {
+      "item": "minecraft:milk_bucket"
+    }
+  },
+  "pattern": [
+    "###",
+    "MAM",
+    "###"
+  ],
+  "result": {
+    "item": "malfoymod:asbestos_burger"
+  },
+  "show_notification": true
+}

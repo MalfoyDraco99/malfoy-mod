@@ -24,6 +24,7 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.URANIUM_BLOCK);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.SOUND_BLOCK);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.ASBESTOS_ORE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.ASBESTOS_BLOCK);
 
     }
 
@@ -34,6 +35,8 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.URANIUM_INGOT, Models.GENERATED);
         itemModelGenerator.register(ModItems.RUBY_BURGER, Models.GENERATED);
         itemModelGenerator.register(ModItems.METAL_DETECTOR, Models.GENERATED);
+        itemModelGenerator.register(ModItems.ASBESTOS,Models.GENERATED);
+        itemModelGenerator.register(ModItems.ASBESTOS_BURGER,Models.GENERATED);
 
     }
 }

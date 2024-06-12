@@ -1,8 +1,8 @@
-// 1.20.1	2024-06-11T21:31:03.8128849	Malfoy Mod/Tags for minecraft:block
-1df6cf15ecff94ef7c90908f137d89e0ebdcd8d1 data\minecraft\tags\blocks\mineable\pickaxe.json
+// 1.20.1	2024-06-11T22:30:17.506236	Malfoy Mod/Tags for minecraft:block
+128501896c1fc6e8aaf912a76bd4bf2d0e68a032 data\minecraft\tags\blocks\mineable\pickaxe.json
 7c02d47eb9274a83c309c4b407ebe862eb9322a1 data\minecraft\tags\blocks\needs_iron_tool.json
-8a23702b05296c8af5014d6aa6e9265ded85c7d9 data\fabric\tags\blocks\needs_tool_level_4.json
 1aa34d2d6bf3d4f21dece10786b4379689e93b6f data\minecraft\tags\blocks\needs_stone_tool.json
+8a23702b05296c8af5014d6aa6e9265ded85c7d9 data\fabric\tags\blocks\needs_tool_level_4.json
 464f7417bd9c85479ed76bd9f33df5f00ee2d401 data\malfoymod\tags\blocks\metal_dectector_dectectable_blocks.json
 a82f56d10aff21b3e10a29ff6565039d88090212 data\minecraft\tags\blocks\mineable\axe.json
 57d5e99fa7ed0dd853fe59642cf6773c9f643f8e data\minecraft\tags\blocks\needs_diamond_tool.json

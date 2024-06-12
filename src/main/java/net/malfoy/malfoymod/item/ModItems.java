@@ -17,6 +17,8 @@ public class ModItems {
     public static final Item RUBY_BURGER = registerItem("ruby_burger", new Item(new FabricItemSettings().food(ModFoodComponents.RUBY_BURGER)));
     public static final Item METAL_DETECTOR = registerItem("metal_detector", new MetalDetectorItem(new FabricItemSettings().maxDamage(32)));
     public static final Item URANIUM_INGOT = registerItem("uranium_ingot", new Item(new FabricItemSettings()));
+    public static final Item ASBESTOS = registerItem("asbestos", new Item(new FabricItemSettings()));
+    public static final Item ASBESTOS_BURGER = registerItem("asbestos_burger", new Item(new FabricItemSettings().food(ModFoodComponents.ASBESTOS_BURGER)));
 
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
         entries.add(RUBY);

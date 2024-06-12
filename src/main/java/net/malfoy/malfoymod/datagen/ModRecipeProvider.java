@@ -11,6 +11,7 @@ import net.minecraft.item.Items;
 import net.minecraft.recipe.book.RecipeCategory;
 import net.minecraft.util.Identifier;
 
+import java.awt.*;
 import java.util.List;
 import java.util.function.Consumer;
 
@@ -52,5 +53,20 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(Items.REDSTONE),conditionsFromItem(Items.REDSTONE))
                 .criterion(hasItem(ModItems.RUBY),conditionsFromItem(ModItems.RUBY))
                 .offerTo(exporter,new Identifier(getRecipeName(ModItems.METAL_DETECTOR)));
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS,ModBlocks.ASBESTOS_BLOCK,1)
+                .pattern("##")
+                .pattern("##")
+                .input('#',ModItems.ASBESTOS)
+                .criterion(hasItem(ModItems.ASBESTOS),conditionsFromItem(ModItems.ASBESTOS))
+                .offerTo(exporter,new Identifier(getRecipeName(ModBlocks.ASBESTOS_BLOCK)));
+        ShapedRecipeJsonBuilder.create(RecipeCategory.FOOD,ModItems.ASBESTOS_BURGER,1)
+                .pattern("###")
+                .pattern("MAM")
+                .pattern("###")
+                .input('#',Items.BREAD)
+                .input('M',Items.MILK_BUCKET)
+                .input('A',ModItems.ASBESTOS)
+                .criterion(hasItem(ModItems.ASBESTOS),conditionsFromItem(ModItems.ASBESTOS))
+                .offerTo(exporter,new Identifier(getRecipeName(ModItems.ASBESTOS_BURGER)));
     }
 }

@@ -38,6 +38,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.END_STONE_RUBY_ORE)
                 .add(ModBlocks.DEEPSLATE_RUBY_ORE)
                 .add(ModBlocks.ASBESTOS_ORE)
+                .add(ModBlocks.ASBESTOS_BLOCK)
                 .add(ModBlocks.URANIUM_BLOCK);
         getOrCreateTagBuilder(BlockTags.AXE_MINEABLE)
                 .add(ModBlocks.SOUND_BLOCK);
