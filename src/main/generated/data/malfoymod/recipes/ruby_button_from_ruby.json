@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "ruby_button",
+  "ingredients": [
+    {
+      "item": "malfoymod:ruby"
+    }
+  ],
+  "result": {
+    "item": "malfoymod:ruby_button"
+  }
+}

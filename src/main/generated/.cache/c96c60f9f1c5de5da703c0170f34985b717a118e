@@ -1,4 +1,4 @@
-// 1.20.1	2024-06-12T16:49:33.9925951	Malfoy Mod/Block Loot Tables
+// 1.20.1	2024-06-12T20:39:34.1306342	Malfoy Mod/Block Loot Tables
 f5a00f907d81618365dd8d4b9052973fe2c69ee0 data\malfoymod\loot_tables\blocks\sound_block.json
 40a84a41c735225f7e3c1d393ad23c693b9f4409 data\malfoymod\loot_tables\blocks\ruby_pressure_plate.json
 86cf92dd958abc94544e146a5b961beef5e44c45 data\malfoymod\loot_tables\blocks\asbestos_block.json
@@ -15,6 +15,6 @@ afa93e540a36831096cb264a416b42b94b7d4407 data\malfoymod\loot_tables\blocks\ruby_
 ed05482a80c504fe2d5ab984063b1d1c8b887ab4 data\malfoymod\loot_tables\blocks\ruby_trapdoor.json
 a9fc0a2785ada92993a65ca300619159271d8457 data\malfoymod\loot_tables\blocks\ruby_fence_gate.json
 53ce21a5c292d87ca0c3428bc9688fe17c855412 data\malfoymod\loot_tables\blocks\ruby_stairs.json
-79f8a9144046b3713c3d29ce13b7f07d1eb4e130 data\malfoymod\loot_tables\blocks\asbestos_ore.json
 a8e13b1d4989a9947dc6ca9ec96cfb4997823f9d data\malfoymod\loot_tables\blocks\ruby_fence.json
+79f8a9144046b3713c3d29ce13b7f07d1eb4e130 data\malfoymod\loot_tables\blocks\asbestos_ore.json
 f6d3bd54d3c1d7f17128e9e1dc99d32d7eab4a45 data\malfoymod\loot_tables\blocks\end_stone_ruby_ore.json

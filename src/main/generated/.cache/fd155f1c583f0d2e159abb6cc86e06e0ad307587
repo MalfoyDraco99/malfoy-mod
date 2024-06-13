@@ -1,7 +1,9 @@
-// 1.20.1	2024-06-12T16:49:33.9895704	Malfoy Mod/Tags for minecraft:block
+// 1.20.1	2024-06-12T20:39:34.1264691	Malfoy Mod/Tags for minecraft:block
+8a23702b05296c8af5014d6aa6e9265ded85c7d9 data\fabric\tags\blocks\needs_tool_level_5.json
 047f6d0c66015c0d37d460833f1088e9994e4561 data\minecraft\tags\blocks\fence_gates.json
+0ca76857dafe1888deac20909cb77872074135ed data\minecraft\tags\blocks\fences.json
 93b66c139c47ead74748ec1c28cb87b8c3226d97 data\minecraft\tags\blocks\walls.json
-128501896c1fc6e8aaf912a76bd4bf2d0e68a032 data\minecraft\tags\blocks\mineable\pickaxe.json
+717d97e53b80c65d9a9f2941a61f61fdf60552b5 data\minecraft\tags\blocks\mineable\pickaxe.json
 7c02d47eb9274a83c309c4b407ebe862eb9322a1 data\minecraft\tags\blocks\needs_iron_tool.json
 8a23702b05296c8af5014d6aa6e9265ded85c7d9 data\fabric\tags\blocks\needs_tool_level_4.json
 1aa34d2d6bf3d4f21dece10786b4379689e93b6f data\minecraft\tags\blocks\needs_stone_tool.json

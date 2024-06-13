@@ -39,6 +39,15 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.DEEPSLATE_RUBY_ORE)
                 .add(ModBlocks.ASBESTOS_ORE)
                 .add(ModBlocks.ASBESTOS_BLOCK)
+                .add(ModBlocks.RUBY_DOOR)
+                .add(ModBlocks.RUBY_BUTTON)
+                .add(ModBlocks.RUBY_STAIRS)
+                .add(ModBlocks.RUBY_FENCE)
+                .add(ModBlocks.RUBY_FENCE_GATE)
+                .add(ModBlocks.RUBY_SLAB)
+                .add(ModBlocks.RUBY_WALL)
+                .add(ModBlocks.RUBY_TRAPDOOR)
+                .add(ModBlocks.RUBY_PRESSURE_PLATE)
                 .add(ModBlocks.URANIUM_BLOCK);
         getOrCreateTagBuilder(BlockTags.AXE_MINEABLE)
                 .add(ModBlocks.SOUND_BLOCK);
@@ -55,8 +64,13 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
         getOrCreateTagBuilder(BlockTags.NEEDS_DIAMOND_TOOL)
                 .add(ModBlocks.END_STONE_RUBY_ORE);
 
+
         getOrCreateTagBuilder(BlockTags.FENCE_GATES)
                 .add(ModBlocks.RUBY_FENCE_GATE);
+        getOrCreateTagBuilder(BlockTags.FENCES)
+                .add(ModBlocks.RUBY_FENCE);
+        getOrCreateTagBuilder(TagKey.of(RegistryKeys.BLOCK, new Identifier("fabric","needs_tool_level_4")));
+        getOrCreateTagBuilder(TagKey.of(RegistryKeys.BLOCK, new Identifier("fabric","needs_tool_level_5")));
 
         getOrCreateTagBuilder(BlockTags.WALLS)
                 .add(ModBlocks.RUBY_WALL);

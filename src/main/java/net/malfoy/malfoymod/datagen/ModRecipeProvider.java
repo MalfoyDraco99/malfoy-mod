@@ -6,9 +6,11 @@ import net.malfoy.malfoymod.block.ModBlocks;
 import net.malfoy.malfoymod.item.ModItems;
 import net.minecraft.data.server.recipe.RecipeJsonProvider;
 import net.minecraft.data.server.recipe.ShapedRecipeJsonBuilder;
+import net.minecraft.data.server.recipe.ShapelessRecipeJsonBuilder;
 import net.minecraft.item.ItemConvertible;
 import net.minecraft.item.Items;
 import net.minecraft.recipe.Ingredient;
+import net.minecraft.recipe.Recipe;
 import net.minecraft.recipe.book.RecipeCategory;
 import net.minecraft.util.Identifier;
 
@@ -89,11 +91,6 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.RUBY),conditionsFromItem(ModItems.RUBY))
                 .offerTo(exporter,new Identifier(getRecipeName(ModBlocks.RUBY_WALL)));
 
-
-        ShapedRecipeJsonBuilder.create(RecipeCategory.REDSTONE,ModBlocks.RUBY_BUTTON,1)
-                .pattern("#")
-                .input('#',ModItems.RUBY)
-                .criterion(hasItem(ModItems.RUBY),conditionsFromItem(ModItems.RUBY))
-                .offerTo(exporter,new Identifier(getRecipeName(ModBlocks.RUBY_BUTTON)));
+        offerShapelessRecipe(exporter, ModBlocks.RUBY_BUTTON, ModItems.RUBY, "ruby_button" , 1);
     }
 }

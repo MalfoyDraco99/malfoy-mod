@@ -45,10 +45,10 @@ public class ModBlocks {
             new WallBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
 
     public static final Block RUBY_DOOR = registerBlock("ruby_door",
-            new DoorBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK),BlockSetType.IRON));
+            new DoorBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).nonOpaque(),BlockSetType.IRON));
 
     public static final Block RUBY_TRAPDOOR = registerBlock("ruby_trapdoor",
-            new TrapdoorBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK),BlockSetType.IRON));
+            new TrapdoorBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).nonOpaque(),BlockSetType.IRON));
 
     public static final Block RUBY_ORE = registerBlock("ruby_ore",
             new ExperienceDroppingBlock(FabricBlockSettings.copyOf(Blocks.STONE).strength(3f), UniformIntProvider.create(2,5)));

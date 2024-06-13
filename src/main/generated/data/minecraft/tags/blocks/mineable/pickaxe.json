@@ -9,6 +9,15 @@
     "malfoymod:deepslate_ruby_ore",
     "malfoymod:asbestos_ore",
     "malfoymod:asbestos_block",
+    "malfoymod:ruby_door",
+    "malfoymod:ruby_button",
+    "malfoymod:ruby_stairs",
+    "malfoymod:ruby_fence",
+    "malfoymod:ruby_fence_gate",
+    "malfoymod:ruby_slab",
+    "malfoymod:ruby_wall",
+    "malfoymod:ruby_trapdoor",
+    "malfoymod:ruby_pressure_plate",
     "malfoymod:uranium_block"
   ]
 }

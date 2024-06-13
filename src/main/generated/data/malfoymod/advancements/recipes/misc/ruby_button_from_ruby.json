@@ -15,7 +15,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "minecraft:ruby_fence_gate"
+        "recipe": "minecraft:ruby_button_from_ruby"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -28,7 +28,7 @@
   ],
   "rewards": {
     "recipes": [
-      "minecraft:ruby_fence_gate"
+      "minecraft:ruby_button_from_ruby"
     ]
   },
   "sends_telemetry_event": false
